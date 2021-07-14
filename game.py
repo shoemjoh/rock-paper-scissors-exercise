@@ -26,19 +26,18 @@ print("The computer chooses:", r)
 # Determine a winner and display results
 if x == r:
     print("Tie!")
-elif (x == "rock"):
-   if r == "scissors":
-       print("User wins!")
-    else
-        print("Computer wins!")
-elif (x == "paper"):
-   if r == "scissors": 
-       print("Computer wins!")
-    else
+elif x == "rock":
+    if r == "scissors":
         print("User wins!")
-elif (x == "scissors"):
-   if r == "paper": 
-       print("User wins!")
-    else
+    else:
         print("Computer wins!")
-
+elif x == "paper":
+    if r == "scissors":
+        print("Computer wins!")
+    else:
+        print("User wins!")
+elif x == "scissors":
+    if r == "paper":
+        print("User wins!")
+    else:
+        print("Computer wins!")
